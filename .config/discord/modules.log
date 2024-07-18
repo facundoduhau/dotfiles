@@ -1,0 +1,707 @@
+2024-07-17T22:28:26.824Z [Modules] Modules initializing
+2024-07-17T22:28:26.824Z [Modules] Distribution: remote
+2024-07-17T22:28:26.824Z [Modules] Host updates: enabled
+2024-07-17T22:28:26.824Z [Modules] Module updates: enabled
+2024-07-17T22:28:26.824Z [Modules] Module install path: /home/facundo/.config/discord/0.0.60/modules
+2024-07-17T22:28:26.824Z [Modules] Module installed file path: /home/facundo/.config/discord/0.0.60/modules/installed.json
+2024-07-17T22:28:26.824Z [Modules] Module download path: /home/facundo/.config/discord/0.0.60/modules/pending
+2024-07-17T22:28:27.099Z [Modules] Bootstrapping...
+2024-07-17T22:28:27.100Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-07-17T22:28:27.103Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-07-17T22:28:27.103Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-07-17T22:28:27.106Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-07-17T22:28:27.106Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-07-17T22:28:27.108Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-07-17T22:28:27.108Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-07-17T22:28:27.109Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-07-17T22:28:27.110Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-07-17T22:28:27.111Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-07-17T22:28:27.111Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-07-17T22:28:27.112Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-07-17T22:28:27.112Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-07-17T22:28:27.112Z [Modules] Checking for host updates.
+2024-07-17T22:28:27.408Z [Modules] Host is up to date.
+2024-07-17T22:28:27.408Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-17T22:28:27.449Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-07-17T22:28:27.449Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-07-17T22:28:27.449Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-07-17T22:28:27.449Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-07-17T22:28:27.449Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-07-17T22:28:27.449Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-07-17T22:28:27.450Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-07-17T22:28:27.450Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip
+2024-07-17T22:28:28.278Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 1%
+2024-07-17T22:28:28.282Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 2%
+2024-07-17T22:28:28.435Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 3%
+2024-07-17T22:28:28.444Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 4%
+2024-07-17T22:28:28.584Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 6%
+2024-07-17T22:28:28.594Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 8%
+2024-07-17T22:28:28.596Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 9%
+2024-07-17T22:28:28.602Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 10%
+2024-07-17T22:28:28.608Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 11%
+2024-07-17T22:28:28.609Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 12%
+2024-07-17T22:28:28.741Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 13%
+2024-07-17T22:28:28.746Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 14%
+2024-07-17T22:28:28.750Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 15%
+2024-07-17T22:28:28.753Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 16%
+2024-07-17T22:28:28.758Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 17%
+2024-07-17T22:28:28.761Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 18%
+2024-07-17T22:28:28.765Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 19%
+2024-07-17T22:28:28.772Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 20%
+2024-07-17T22:28:28.775Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 21%
+2024-07-17T22:28:28.781Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 22%
+2024-07-17T22:28:28.782Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 23%
+2024-07-17T22:28:28.787Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 24%
+2024-07-17T22:28:28.791Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 25%
+2024-07-17T22:28:28.798Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 27%
+2024-07-17T22:28:28.804Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 28%
+2024-07-17T22:28:28.808Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 29%
+2024-07-17T22:28:28.892Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 30%
+2024-07-17T22:28:28.894Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 31%
+2024-07-17T22:28:28.899Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 32%
+2024-07-17T22:28:28.901Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 33%
+2024-07-17T22:28:28.908Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 34%
+2024-07-17T22:28:28.913Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 35%
+2024-07-17T22:28:28.915Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 36%
+2024-07-17T22:28:28.923Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 38%
+2024-07-17T22:28:28.929Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 39%
+2024-07-17T22:28:28.932Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 40%
+2024-07-17T22:28:28.938Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 42%
+2024-07-17T22:28:28.944Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 43%
+2024-07-17T22:28:28.946Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 44%
+2024-07-17T22:28:28.952Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 45%
+2024-07-17T22:28:28.957Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 46%
+2024-07-17T22:28:28.959Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 47%
+2024-07-17T22:28:28.968Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 49%
+2024-07-17T22:28:28.974Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 50%
+2024-07-17T22:28:28.976Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 51%
+2024-07-17T22:28:28.984Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 53%
+2024-07-17T22:28:28.991Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 54%
+2024-07-17T22:28:28.994Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 55%
+2024-07-17T22:28:28.998Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 56%
+2024-07-17T22:28:29.001Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 57%
+2024-07-17T22:28:29.006Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 58%
+2024-07-17T22:28:29.010Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 59%
+2024-07-17T22:28:29.013Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 60%
+2024-07-17T22:28:29.017Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 61%
+2024-07-17T22:28:29.048Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 62%
+2024-07-17T22:28:29.049Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 63%
+2024-07-17T22:28:29.051Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 64%
+2024-07-17T22:28:29.056Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 65%
+2024-07-17T22:28:29.060Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 66%
+2024-07-17T22:28:29.063Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 68%
+2024-07-17T22:28:29.068Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 70%
+2024-07-17T22:28:29.075Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 72%
+2024-07-17T22:28:29.079Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 73%
+2024-07-17T22:28:29.083Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 74%
+2024-07-17T22:28:29.085Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 75%
+2024-07-17T22:28:29.090Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 77%
+2024-07-17T22:28:29.094Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 78%
+2024-07-17T22:28:29.096Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 79%
+2024-07-17T22:28:29.101Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 81%
+2024-07-17T22:28:29.107Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 83%
+2024-07-17T22:28:29.110Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 84%
+2024-07-17T22:28:29.117Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 86%
+2024-07-17T22:28:29.120Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 87%
+2024-07-17T22:28:29.124Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 88%
+2024-07-17T22:28:29.126Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 89%
+2024-07-17T22:28:29.127Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 90%
+2024-07-17T22:28:29.137Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 93%
+2024-07-17T22:28:29.141Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 94%
+2024-07-17T22:28:29.144Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 95%
+2024-07-17T22:28:29.149Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 98%
+2024-07-17T22:28:29.153Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 99%
+2024-07-17T22:28:29.154Z [Modules] Streaming discord_desktop_core@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip: 100%
+2024-07-17T22:28:29.155Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-07-17T22:28:29.155Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip
+2024-07-17T22:28:29.547Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 3%
+2024-07-17T22:28:29.553Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 4%
+2024-07-17T22:28:29.553Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 8%
+2024-07-17T22:28:29.558Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 11%
+2024-07-17T22:28:29.560Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 12%
+2024-07-17T22:28:29.561Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 15%
+2024-07-17T22:28:29.561Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 16%
+2024-07-17T22:28:29.562Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 18%
+2024-07-17T22:28:29.563Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 19%
+2024-07-17T22:28:29.570Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 22%
+2024-07-17T22:28:29.571Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 24%
+2024-07-17T22:28:29.573Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 28%
+2024-07-17T22:28:29.575Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 29%
+2024-07-17T22:28:29.579Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 32%
+2024-07-17T22:28:29.581Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 33%
+2024-07-17T22:28:29.582Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 36%
+2024-07-17T22:28:29.583Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 38%
+2024-07-17T22:28:29.586Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 41%
+2024-07-17T22:28:29.590Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 44%
+2024-07-17T22:28:29.593Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 47%
+2024-07-17T22:28:29.596Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 49%
+2024-07-17T22:28:29.597Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 52%
+2024-07-17T22:28:29.601Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 55%
+2024-07-17T22:28:29.602Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 56%
+2024-07-17T22:28:29.604Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 57%
+2024-07-17T22:28:29.605Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 60%
+2024-07-17T22:28:29.613Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 63%
+2024-07-17T22:28:29.614Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 66%
+2024-07-17T22:28:29.616Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 68%
+2024-07-17T22:28:29.618Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 70%
+2024-07-17T22:28:29.620Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 73%
+2024-07-17T22:28:29.622Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 74%
+2024-07-17T22:28:29.624Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 75%
+2024-07-17T22:28:29.625Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 78%
+2024-07-17T22:28:29.628Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 81%
+2024-07-17T22:28:29.631Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 83%
+2024-07-17T22:28:29.633Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 84%
+2024-07-17T22:28:29.635Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 85%
+2024-07-17T22:28:29.638Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 88%
+2024-07-17T22:28:29.640Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 89%
+2024-07-17T22:28:29.644Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 92%
+2024-07-17T22:28:29.645Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 95%
+2024-07-17T22:28:29.650Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 96%
+2024-07-17T22:28:29.651Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 97%
+2024-07-17T22:28:29.652Z [Modules] Streaming discord_erlpack@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip: 100%
+2024-07-17T22:28:29.653Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-07-17T22:28:29.653Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip
+2024-07-17T22:28:30.007Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 1%
+2024-07-17T22:28:30.007Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 2%
+2024-07-17T22:28:30.012Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 3%
+2024-07-17T22:28:30.016Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 4%
+2024-07-17T22:28:30.021Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 5%
+2024-07-17T22:28:30.027Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 6%
+2024-07-17T22:28:30.031Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 7%
+2024-07-17T22:28:30.041Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 8%
+2024-07-17T22:28:30.044Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 9%
+2024-07-17T22:28:30.050Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 10%
+2024-07-17T22:28:30.053Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 11%
+2024-07-17T22:28:30.056Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 12%
+2024-07-17T22:28:30.061Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 13%
+2024-07-17T22:28:30.069Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 14%
+2024-07-17T22:28:30.072Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 15%
+2024-07-17T22:28:30.076Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 16%
+2024-07-17T22:28:30.080Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 17%
+2024-07-17T22:28:30.086Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 18%
+2024-07-17T22:28:30.088Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 19%
+2024-07-17T22:28:30.092Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 20%
+2024-07-17T22:28:30.104Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 21%
+2024-07-17T22:28:30.106Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 22%
+2024-07-17T22:28:30.115Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 23%
+2024-07-17T22:28:30.116Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 24%
+2024-07-17T22:28:30.123Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 25%
+2024-07-17T22:28:30.128Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 26%
+2024-07-17T22:28:30.131Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 27%
+2024-07-17T22:28:30.138Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 28%
+2024-07-17T22:28:30.146Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 29%
+2024-07-17T22:28:30.147Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 30%
+2024-07-17T22:28:30.151Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 31%
+2024-07-17T22:28:30.155Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 32%
+2024-07-17T22:28:30.158Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 33%
+2024-07-17T22:28:30.162Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 34%
+2024-07-17T22:28:30.165Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 35%
+2024-07-17T22:28:30.167Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 36%
+2024-07-17T22:28:30.171Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 37%
+2024-07-17T22:28:30.173Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 38%
+2024-07-17T22:28:30.177Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 39%
+2024-07-17T22:28:30.182Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 40%
+2024-07-17T22:28:30.186Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 41%
+2024-07-17T22:28:30.189Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 42%
+2024-07-17T22:28:30.195Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 43%
+2024-07-17T22:28:30.200Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 44%
+2024-07-17T22:28:30.205Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 45%
+2024-07-17T22:28:30.208Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 46%
+2024-07-17T22:28:30.219Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 47%
+2024-07-17T22:28:30.223Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 48%
+2024-07-17T22:28:30.226Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 49%
+2024-07-17T22:28:30.232Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 50%
+2024-07-17T22:28:30.247Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 51%
+2024-07-17T22:28:30.252Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 52%
+2024-07-17T22:28:30.255Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 53%
+2024-07-17T22:28:30.259Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 54%
+2024-07-17T22:28:30.264Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 55%
+2024-07-17T22:28:30.275Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 56%
+2024-07-17T22:28:30.278Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 57%
+2024-07-17T22:28:30.279Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 58%
+2024-07-17T22:28:30.282Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 59%
+2024-07-17T22:28:30.285Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 60%
+2024-07-17T22:28:30.291Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 61%
+2024-07-17T22:28:30.292Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 62%
+2024-07-17T22:28:30.315Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 63%
+2024-07-17T22:28:30.319Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 64%
+2024-07-17T22:28:30.324Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 65%
+2024-07-17T22:28:30.330Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 66%
+2024-07-17T22:28:30.331Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 67%
+2024-07-17T22:28:30.336Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 68%
+2024-07-17T22:28:30.339Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 69%
+2024-07-17T22:28:30.345Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 70%
+2024-07-17T22:28:30.348Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 71%
+2024-07-17T22:28:30.356Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 72%
+2024-07-17T22:28:30.371Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 73%
+2024-07-17T22:28:30.373Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 74%
+2024-07-17T22:28:30.377Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 75%
+2024-07-17T22:28:30.381Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 76%
+2024-07-17T22:28:30.384Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 77%
+2024-07-17T22:28:30.387Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 78%
+2024-07-17T22:28:30.391Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 79%
+2024-07-17T22:28:30.400Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 80%
+2024-07-17T22:28:30.409Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 81%
+2024-07-17T22:28:30.416Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 82%
+2024-07-17T22:28:30.420Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 83%
+2024-07-17T22:28:30.423Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 84%
+2024-07-17T22:28:30.426Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 85%
+2024-07-17T22:28:30.431Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 86%
+2024-07-17T22:28:30.437Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 87%
+2024-07-17T22:28:30.444Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 88%
+2024-07-17T22:28:30.455Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 89%
+2024-07-17T22:28:30.465Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 90%
+2024-07-17T22:28:30.470Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 91%
+2024-07-17T22:28:30.477Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 92%
+2024-07-17T22:28:30.484Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 93%
+2024-07-17T22:28:30.496Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 94%
+2024-07-17T22:28:30.498Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 95%
+2024-07-17T22:28:30.502Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 96%
+2024-07-17T22:28:30.506Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 97%
+2024-07-17T22:28:30.511Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 98%
+2024-07-17T22:28:30.515Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 99%
+2024-07-17T22:28:30.522Z [Modules] Streaming discord_spellcheck@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip: 100%
+2024-07-17T22:28:30.523Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-07-17T22:28:30.523Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip
+2024-07-17T22:28:30.934Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 1%
+2024-07-17T22:28:30.942Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 2%
+2024-07-17T22:28:30.946Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 3%
+2024-07-17T22:28:30.948Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 4%
+2024-07-17T22:28:30.951Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 5%
+2024-07-17T22:28:30.956Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 6%
+2024-07-17T22:28:30.960Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 7%
+2024-07-17T22:28:30.972Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 8%
+2024-07-17T22:28:30.979Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 9%
+2024-07-17T22:28:30.993Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 10%
+2024-07-17T22:28:30.995Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 12%
+2024-07-17T22:28:31.006Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 13%
+2024-07-17T22:28:31.016Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 14%
+2024-07-17T22:28:31.018Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 15%
+2024-07-17T22:28:31.025Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 16%
+2024-07-17T22:28:31.027Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 17%
+2024-07-17T22:28:31.028Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 19%
+2024-07-17T22:28:31.033Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 20%
+2024-07-17T22:28:31.036Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 21%
+2024-07-17T22:28:31.038Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 23%
+2024-07-17T22:28:31.044Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 24%
+2024-07-17T22:28:31.047Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 26%
+2024-07-17T22:28:31.050Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 28%
+2024-07-17T22:28:31.051Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 29%
+2024-07-17T22:28:31.058Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 31%
+2024-07-17T22:28:31.060Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 33%
+2024-07-17T22:28:31.060Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 34%
+2024-07-17T22:28:31.062Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 36%
+2024-07-17T22:28:31.064Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 37%
+2024-07-17T22:28:31.068Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 38%
+2024-07-17T22:28:31.070Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 39%
+2024-07-17T22:28:31.072Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 41%
+2024-07-17T22:28:31.080Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 43%
+2024-07-17T22:28:31.081Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 44%
+2024-07-17T22:28:31.084Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 46%
+2024-07-17T22:28:31.086Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 47%
+2024-07-17T22:28:31.087Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 48%
+2024-07-17T22:28:31.088Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 49%
+2024-07-17T22:28:31.090Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 51%
+2024-07-17T22:28:31.092Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 52%
+2024-07-17T22:28:31.093Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 54%
+2024-07-17T22:28:31.097Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 56%
+2024-07-17T22:28:31.097Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 57%
+2024-07-17T22:28:31.099Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 59%
+2024-07-17T22:28:31.100Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 60%
+2024-07-17T22:28:31.109Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 62%
+2024-07-17T22:28:31.112Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 64%
+2024-07-17T22:28:31.282Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 65%
+2024-07-17T22:28:31.288Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 68%
+2024-07-17T22:28:31.288Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 69%
+2024-07-17T22:28:31.445Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 71%
+2024-07-17T22:28:31.445Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 72%
+2024-07-17T22:28:31.447Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 74%
+2024-07-17T22:28:31.447Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 75%
+2024-07-17T22:28:31.449Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 77%
+2024-07-17T22:28:31.450Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 78%
+2024-07-17T22:28:31.607Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 80%
+2024-07-17T22:28:31.612Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 82%
+2024-07-17T22:28:31.613Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 86%
+2024-07-17T22:28:31.616Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 88%
+2024-07-17T22:28:31.617Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 90%
+2024-07-17T22:28:31.617Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 92%
+2024-07-17T22:28:31.618Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 94%
+2024-07-17T22:28:31.621Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 95%
+2024-07-17T22:28:31.621Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 97%
+2024-07-17T22:28:31.622Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 99%
+2024-07-17T22:28:31.765Z [Modules] Streaming discord_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip: 100%
+2024-07-17T22:28:31.766Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-07-17T22:28:31.766Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip
+2024-07-17T22:28:32.130Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 1%
+2024-07-17T22:28:32.137Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 2%
+2024-07-17T22:28:32.143Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 3%
+2024-07-17T22:28:32.150Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 4%
+2024-07-17T22:28:32.159Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 5%
+2024-07-17T22:28:32.168Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 6%
+2024-07-17T22:28:32.176Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 7%
+2024-07-17T22:28:32.181Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 8%
+2024-07-17T22:28:32.190Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 9%
+2024-07-17T22:28:32.202Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 10%
+2024-07-17T22:28:32.214Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 11%
+2024-07-17T22:28:32.222Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 12%
+2024-07-17T22:28:32.227Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 13%
+2024-07-17T22:28:32.234Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 14%
+2024-07-17T22:28:32.242Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 15%
+2024-07-17T22:28:32.249Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 16%
+2024-07-17T22:28:32.278Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 17%
+2024-07-17T22:28:32.291Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 18%
+2024-07-17T22:28:32.302Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 19%
+2024-07-17T22:28:32.312Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 20%
+2024-07-17T22:28:32.319Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 21%
+2024-07-17T22:28:32.327Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 22%
+2024-07-17T22:28:32.329Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 23%
+2024-07-17T22:28:32.339Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 24%
+2024-07-17T22:28:32.352Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 25%
+2024-07-17T22:28:32.361Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 26%
+2024-07-17T22:28:32.389Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 27%
+2024-07-17T22:28:32.396Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 28%
+2024-07-17T22:28:32.403Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 29%
+2024-07-17T22:28:32.416Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 30%
+2024-07-17T22:28:32.423Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 31%
+2024-07-17T22:28:32.427Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 32%
+2024-07-17T22:28:32.435Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 33%
+2024-07-17T22:28:32.519Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 34%
+2024-07-17T22:28:32.536Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 35%
+2024-07-17T22:28:32.549Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 36%
+2024-07-17T22:28:32.559Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 37%
+2024-07-17T22:28:32.571Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 38%
+2024-07-17T22:28:32.584Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 39%
+2024-07-17T22:28:32.598Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 40%
+2024-07-17T22:28:32.613Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 41%
+2024-07-17T22:28:32.621Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 42%
+2024-07-17T22:28:32.632Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 43%
+2024-07-17T22:28:32.643Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 44%
+2024-07-17T22:28:32.651Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 45%
+2024-07-17T22:28:32.837Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 46%
+2024-07-17T22:28:32.839Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 47%
+2024-07-17T22:28:32.844Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 48%
+2024-07-17T22:28:32.853Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 49%
+2024-07-17T22:28:32.994Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 50%
+2024-07-17T22:28:32.995Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 51%
+2024-07-17T22:28:32.996Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 52%
+2024-07-17T22:28:32.997Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 53%
+2024-07-17T22:28:32.998Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 54%
+2024-07-17T22:28:32.999Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 55%
+2024-07-17T22:28:32.999Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 56%
+2024-07-17T22:28:33.005Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 57%
+2024-07-17T22:28:33.012Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 58%
+2024-07-17T22:28:33.017Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 59%
+2024-07-17T22:28:33.021Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 60%
+2024-07-17T22:28:33.028Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 61%
+2024-07-17T22:28:33.035Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 62%
+2024-07-17T22:28:33.152Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 63%
+2024-07-17T22:28:33.157Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 64%
+2024-07-17T22:28:33.162Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 65%
+2024-07-17T22:28:33.166Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 66%
+2024-07-17T22:28:33.171Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 67%
+2024-07-17T22:28:33.177Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 68%
+2024-07-17T22:28:33.181Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 69%
+2024-07-17T22:28:33.186Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 70%
+2024-07-17T22:28:33.192Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 71%
+2024-07-17T22:28:33.197Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 72%
+2024-07-17T22:28:33.203Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 73%
+2024-07-17T22:28:33.210Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 74%
+2024-07-17T22:28:33.217Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 75%
+2024-07-17T22:28:33.221Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 76%
+2024-07-17T22:28:33.226Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 77%
+2024-07-17T22:28:33.239Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 78%
+2024-07-17T22:28:33.323Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 79%
+2024-07-17T22:28:33.332Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 80%
+2024-07-17T22:28:33.338Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 81%
+2024-07-17T22:28:33.343Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 82%
+2024-07-17T22:28:33.351Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 83%
+2024-07-17T22:28:33.357Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 84%
+2024-07-17T22:28:33.365Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 85%
+2024-07-17T22:28:33.372Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 86%
+2024-07-17T22:28:33.376Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 87%
+2024-07-17T22:28:33.383Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 88%
+2024-07-17T22:28:33.389Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 89%
+2024-07-17T22:28:33.399Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 90%
+2024-07-17T22:28:33.407Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 91%
+2024-07-17T22:28:33.414Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 92%
+2024-07-17T22:28:33.482Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 93%
+2024-07-17T22:28:33.487Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 94%
+2024-07-17T22:28:33.494Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 95%
+2024-07-17T22:28:33.500Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 96%
+2024-07-17T22:28:33.505Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 97%
+2024-07-17T22:28:33.510Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 98%
+2024-07-17T22:28:33.515Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 99%
+2024-07-17T22:28:33.518Z [Modules] Streaming discord_voice@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip: 100%
+2024-07-17T22:28:33.520Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-07-17T22:28:33.520Z [Modules] Streaming discord_zstd@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip
+2024-07-17T22:28:33.885Z [Modules] Streaming discord_zstd@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip: 4%
+2024-07-17T22:28:33.887Z [Modules] Streaming discord_zstd@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip: 7%
+2024-07-17T22:28:33.893Z [Modules] Streaming discord_zstd@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip: 23%
+2024-07-17T22:28:33.893Z [Modules] Streaming discord_zstd@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip: 47%
+2024-07-17T22:28:33.896Z [Modules] Streaming discord_zstd@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip: 63%
+2024-07-17T22:28:33.899Z [Modules] Streaming discord_zstd@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip: 71%
+2024-07-17T22:28:33.901Z [Modules] Streaming discord_zstd@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip: 87%
+2024-07-17T22:28:33.901Z [Modules] Streaming discord_zstd@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip: 91%
+2024-07-17T22:28:33.902Z [Modules] Streaming discord_zstd@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip: 100%
+2024-07-17T22:28:33.902Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-07-17T22:28:33.903Z [Modules] Installing updates...
+2024-07-17T22:28:33.903Z [Modules] Installing discord_desktop_core@1 from /home/facundo/.config/discord/0.0.60/modules/pending/discord_desktop_core-1.zip
+2024-07-17T22:28:33.999Z [Modules] Installing discord_erlpack@1 from /home/facundo/.config/discord/0.0.60/modules/pending/discord_erlpack-1.zip
+2024-07-17T22:28:34.059Z [Modules] Installing discord_spellcheck@1 from /home/facundo/.config/discord/0.0.60/modules/pending/discord_spellcheck-1.zip
+2024-07-17T22:28:34.851Z [Modules] Installing discord_utils@1 from /home/facundo/.config/discord/0.0.60/modules/pending/discord_utils-1.zip
+2024-07-17T22:28:35.000Z [Modules] Installing discord_voice@1 from /home/facundo/.config/discord/0.0.60/modules/pending/discord_voice-1.zip
+2024-07-17T22:28:35.572Z [Modules] Installing discord_zstd@1 from /home/facundo/.config/discord/0.0.60/modules/pending/discord_zstd-1.zip
+2024-07-17T22:28:35.584Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-07-17T22:28:35.585Z [Modules] Checking for host updates.
+2024-07-17T22:28:35.795Z [Modules] Host is up to date.
+2024-07-17T22:28:35.795Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-17T22:28:35.798Z [Modules] No module updates available.
+2024-07-17T22:28:37.278Z [Modules] Starting to install discord_krisp...
+2024-07-17T22:28:37.278Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-07-17T22:28:37.278Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip
+2024-07-17T22:28:37.286Z [Modules] Starting to install discord_game_utils...
+2024-07-17T22:28:37.660Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 1%
+2024-07-17T22:28:37.719Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 3%
+2024-07-17T22:28:37.815Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 4%
+2024-07-17T22:28:37.817Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 5%
+2024-07-17T22:28:37.818Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 6%
+2024-07-17T22:28:37.819Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 7%
+2024-07-17T22:28:37.819Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 8%
+2024-07-17T22:28:37.820Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 9%
+2024-07-17T22:28:37.827Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 10%
+2024-07-17T22:28:37.830Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 11%
+2024-07-17T22:28:37.977Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 12%
+2024-07-17T22:28:38.014Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 13%
+2024-07-17T22:28:38.081Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 14%
+2024-07-17T22:28:38.100Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 15%
+2024-07-17T22:28:38.110Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 16%
+2024-07-17T22:28:38.118Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 17%
+2024-07-17T22:28:38.119Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 18%
+2024-07-17T22:28:38.120Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 19%
+2024-07-17T22:28:38.121Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 20%
+2024-07-17T22:28:38.122Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 21%
+2024-07-17T22:28:38.123Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 22%
+2024-07-17T22:28:38.124Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 23%
+2024-07-17T22:28:38.125Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 24%
+2024-07-17T22:28:38.126Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 25%
+2024-07-17T22:28:38.136Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 26%
+2024-07-17T22:28:38.186Z [Modules] Checking for host updates.
+2024-07-17T22:28:38.197Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 27%
+2024-07-17T22:28:38.210Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 28%
+2024-07-17T22:28:38.279Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 29%
+2024-07-17T22:28:38.286Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 30%
+2024-07-17T22:28:38.294Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 31%
+2024-07-17T22:28:38.306Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 32%
+2024-07-17T22:28:38.308Z [Modules] Starting to install discord_rpc...
+2024-07-17T22:28:38.323Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 33%
+2024-07-17T22:28:38.337Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 34%
+2024-07-17T22:28:38.348Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 35%
+2024-07-17T22:28:38.363Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 36%
+2024-07-17T22:28:38.371Z [Modules] Host is up to date.
+2024-07-17T22:28:38.371Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-17T22:28:38.373Z [Modules] No module updates available.
+2024-07-17T22:28:38.388Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 37%
+2024-07-17T22:28:38.400Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 38%
+2024-07-17T22:28:38.407Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 39%
+2024-07-17T22:28:38.421Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 40%
+2024-07-17T22:28:38.434Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 41%
+2024-07-17T22:28:38.454Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 42%
+2024-07-17T22:28:38.470Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 43%
+2024-07-17T22:28:38.484Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 44%
+2024-07-17T22:28:38.858Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 45%
+2024-07-17T22:28:38.860Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 46%
+2024-07-17T22:28:38.862Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 47%
+2024-07-17T22:28:38.863Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 48%
+2024-07-17T22:28:38.864Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 49%
+2024-07-17T22:28:38.865Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 50%
+2024-07-17T22:28:38.866Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 51%
+2024-07-17T22:28:38.874Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 52%
+2024-07-17T22:28:38.876Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 60%
+2024-07-17T22:28:38.877Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 61%
+2024-07-17T22:28:39.035Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 62%
+2024-07-17T22:28:39.045Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 63%
+2024-07-17T22:28:39.054Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 64%
+2024-07-17T22:28:39.058Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 65%
+2024-07-17T22:28:39.062Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 66%
+2024-07-17T22:28:39.067Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 67%
+2024-07-17T22:28:39.074Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 68%
+2024-07-17T22:28:39.079Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 69%
+2024-07-17T22:28:39.084Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 70%
+2024-07-17T22:28:39.093Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 71%
+2024-07-17T22:28:39.109Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 72%
+2024-07-17T22:28:39.113Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 73%
+2024-07-17T22:28:39.122Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 74%
+2024-07-17T22:28:39.135Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 75%
+2024-07-17T22:28:39.149Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 76%
+2024-07-17T22:28:39.155Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 77%
+2024-07-17T22:28:39.159Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 78%
+2024-07-17T22:28:39.645Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 79%
+2024-07-17T22:28:39.650Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 80%
+2024-07-17T22:28:39.657Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 81%
+2024-07-17T22:28:39.662Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 82%
+2024-07-17T22:28:39.670Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 83%
+2024-07-17T22:28:39.675Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 84%
+2024-07-17T22:28:39.681Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 85%
+2024-07-17T22:28:39.686Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 86%
+2024-07-17T22:28:39.691Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 87%
+2024-07-17T22:28:39.696Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 88%
+2024-07-17T22:28:39.701Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 89%
+2024-07-17T22:28:39.706Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 90%
+2024-07-17T22:28:39.711Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 91%
+2024-07-17T22:28:39.715Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 92%
+2024-07-17T22:28:39.807Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 93%
+2024-07-17T22:28:39.820Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 94%
+2024-07-17T22:28:39.833Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 95%
+2024-07-17T22:28:39.849Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 96%
+2024-07-17T22:28:39.869Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 97%
+2024-07-17T22:28:39.883Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 98%
+2024-07-17T22:28:39.900Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 99%
+2024-07-17T22:28:39.905Z [Modules] Streaming discord_krisp@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip: 100%
+2024-07-17T22:28:39.906Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-07-17T22:28:39.906Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip
+2024-07-17T22:28:39.906Z [Modules] Installing discord_krisp@1 from /home/facundo/.config/discord/0.0.60/modules/pending/discord_krisp-1.zip
+2024-07-17T22:28:40.293Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 2%
+2024-07-17T22:28:40.299Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 4%
+2024-07-17T22:28:40.300Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 11%
+2024-07-17T22:28:40.300Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 14%
+2024-07-17T22:28:40.304Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 16%
+2024-07-17T22:28:40.304Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 17%
+2024-07-17T22:28:40.308Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 19%
+2024-07-17T22:28:40.310Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 20%
+2024-07-17T22:28:40.311Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 22%
+2024-07-17T22:28:40.313Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 25%
+2024-07-17T22:28:40.313Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 26%
+2024-07-17T22:28:40.315Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 28%
+2024-07-17T22:28:40.316Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 31%
+2024-07-17T22:28:40.317Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 33%
+2024-07-17T22:28:40.319Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 35%
+2024-07-17T22:28:40.319Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 37%
+2024-07-17T22:28:40.321Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 39%
+2024-07-17T22:28:40.322Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 41%
+2024-07-17T22:28:40.322Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 43%
+2024-07-17T22:28:40.324Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 45%
+2024-07-17T22:28:40.324Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 46%
+2024-07-17T22:28:40.325Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 48%
+2024-07-17T22:28:40.327Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 51%
+2024-07-17T22:28:40.328Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 52%
+2024-07-17T22:28:40.329Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 55%
+2024-07-17T22:28:40.331Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 57%
+2024-07-17T22:28:40.331Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 59%
+2024-07-17T22:28:40.333Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 61%
+2024-07-17T22:28:40.334Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 64%
+2024-07-17T22:28:40.334Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 65%
+2024-07-17T22:28:40.336Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 67%
+2024-07-17T22:28:40.336Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 68%
+2024-07-17T22:28:40.338Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 70%
+2024-07-17T22:28:40.338Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 72%
+2024-07-17T22:28:40.339Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 74%
+2024-07-17T22:28:40.340Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 75%
+2024-07-17T22:28:40.340Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 77%
+2024-07-17T22:28:40.342Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 78%
+2024-07-17T22:28:40.344Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 79%
+2024-07-17T22:28:40.345Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 80%
+2024-07-17T22:28:40.347Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 83%
+2024-07-17T22:28:40.349Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 85%
+2024-07-17T22:28:40.349Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 86%
+2024-07-17T22:28:40.352Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 89%
+2024-07-17T22:28:40.352Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 90%
+2024-07-17T22:28:40.353Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 92%
+2024-07-17T22:28:40.354Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 95%
+2024-07-17T22:28:40.357Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 97%
+2024-07-17T22:28:40.357Z [Modules] Streaming discord_game_utils@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip: 100%
+2024-07-17T22:28:40.359Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-07-17T22:28:40.359Z [Modules] Streaming discord_rpc@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_rpc-1.zip
+2024-07-17T22:28:40.393Z [Modules] Installing discord_game_utils@1 from /home/facundo/.config/discord/0.0.60/modules/pending/discord_game_utils-1.zip
+2024-07-17T22:28:40.473Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2024-07-17T22:28:40.719Z [Modules] Streaming discord_rpc@1 to /home/facundo/.config/discord/0.0.60/modules/pending/discord_rpc-1.zip: 100%
+2024-07-17T22:28:40.721Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-07-17T22:28:40.721Z [Modules] Installing discord_rpc@1 from /home/facundo/.config/discord/0.0.60/modules/pending/discord_rpc-1.zip
+2024-07-17T22:28:40.738Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-07-17T23:27:33.202Z [Modules] Modules initializing
+2024-07-17T23:27:33.202Z [Modules] Distribution: remote
+2024-07-17T23:27:33.202Z [Modules] Host updates: enabled
+2024-07-17T23:27:33.202Z [Modules] Module updates: enabled
+2024-07-17T23:27:33.203Z [Modules] Module install path: /home/facundo/.config/discord/0.0.60/modules
+2024-07-17T23:27:33.203Z [Modules] Module installed file path: /home/facundo/.config/discord/0.0.60/modules/installed.json
+2024-07-17T23:27:33.203Z [Modules] Module download path: /home/facundo/.config/discord/0.0.60/modules/pending
+2024-07-17T23:27:33.450Z [Modules] No updates to install
+2024-07-17T23:27:33.450Z [Modules] Checking for host updates.
+2024-07-17T23:27:33.845Z [Modules] Host is up to date.
+2024-07-17T23:27:33.846Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-17T23:27:33.910Z [Modules] No module updates available.
+2024-07-17T23:27:36.406Z [Modules] Checking for host updates.
+2024-07-17T23:27:36.583Z [Modules] Host is up to date.
+2024-07-17T23:27:36.583Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-17T23:27:36.587Z [Modules] No module updates available.
+2024-07-18T00:27:36.408Z [Modules] Checking for host updates.
+2024-07-18T00:27:36.621Z [Modules] Host is up to date.
+2024-07-18T00:27:36.621Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T00:27:36.667Z [Modules] No module updates available.
+2024-07-18T01:27:36.408Z [Modules] Checking for host updates.
+2024-07-18T01:27:36.670Z [Modules] Host is up to date.
+2024-07-18T01:27:36.670Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T01:27:36.703Z [Modules] No module updates available.
+2024-07-18T02:27:36.408Z [Modules] Checking for host updates.
+2024-07-18T02:27:36.627Z [Modules] Host is up to date.
+2024-07-18T02:27:36.627Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T02:27:36.660Z [Modules] No module updates available.
+2024-07-18T03:27:36.412Z [Modules] Checking for host updates.
+2024-07-18T03:27:36.701Z [Modules] Host is up to date.
+2024-07-18T03:27:36.701Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T03:27:36.747Z [Modules] No module updates available.
+2024-07-18T04:27:36.412Z [Modules] Checking for host updates.
+2024-07-18T04:27:36.624Z [Modules] Host is up to date.
+2024-07-18T04:27:36.624Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T04:27:36.661Z [Modules] No module updates available.
+2024-07-18T13:25:38.608Z [Modules] Modules initializing
+2024-07-18T13:25:38.608Z [Modules] Distribution: remote
+2024-07-18T13:25:38.611Z [Modules] Host updates: enabled
+2024-07-18T13:25:38.611Z [Modules] Module updates: enabled
+2024-07-18T13:25:38.611Z [Modules] Module install path: /home/facundo/.config/discord/0.0.60/modules
+2024-07-18T13:25:38.611Z [Modules] Module installed file path: /home/facundo/.config/discord/0.0.60/modules/installed.json
+2024-07-18T13:25:38.611Z [Modules] Module download path: /home/facundo/.config/discord/0.0.60/modules/pending
+2024-07-18T13:25:38.884Z [Modules] No updates to install
+2024-07-18T13:25:38.885Z [Modules] Checking for host updates.
+2024-07-18T13:25:39.187Z [Modules] Host is up to date.
+2024-07-18T13:25:39.187Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T13:25:39.218Z [Modules] No module updates available.
+2024-07-18T13:25:41.318Z [Modules] Checking for host updates.
+2024-07-18T13:25:41.496Z [Modules] Host is up to date.
+2024-07-18T13:25:41.497Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T13:25:41.499Z [Modules] No module updates available.
+2024-07-18T14:25:41.325Z [Modules] Checking for host updates.
+2024-07-18T14:25:41.554Z [Modules] Host is up to date.
+2024-07-18T14:25:41.554Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T14:25:41.591Z [Modules] No module updates available.
+2024-07-18T16:01:49.217Z [Modules] Modules initializing
+2024-07-18T16:01:49.217Z [Modules] Distribution: remote
+2024-07-18T16:01:49.220Z [Modules] Host updates: enabled
+2024-07-18T16:01:49.220Z [Modules] Module updates: enabled
+2024-07-18T16:01:49.220Z [Modules] Module install path: /home/facundo/.config/discord/0.0.60/modules
+2024-07-18T16:01:49.220Z [Modules] Module installed file path: /home/facundo/.config/discord/0.0.60/modules/installed.json
+2024-07-18T16:01:49.221Z [Modules] Module download path: /home/facundo/.config/discord/0.0.60/modules/pending
+2024-07-18T16:01:49.501Z [Modules] No updates to install
+2024-07-18T16:01:49.502Z [Modules] Checking for host updates.
+2024-07-18T16:01:49.785Z [Modules] Host is up to date.
+2024-07-18T16:01:49.786Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T16:01:49.816Z [Modules] No module updates available.
+2024-07-18T16:01:51.944Z [Modules] Checking for host updates.
+2024-07-18T16:01:52.158Z [Modules] Host is up to date.
+2024-07-18T16:01:52.158Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T16:01:52.161Z [Modules] No module updates available.
+2024-07-18T16:05:04.257Z [Modules] Modules initializing
+2024-07-18T16:05:04.257Z [Modules] Distribution: remote
+2024-07-18T16:05:04.258Z [Modules] Host updates: enabled
+2024-07-18T16:05:04.258Z [Modules] Module updates: enabled
+2024-07-18T16:05:04.258Z [Modules] Module install path: /home/facundo/.config/discord/0.0.60/modules
+2024-07-18T16:05:04.258Z [Modules] Module installed file path: /home/facundo/.config/discord/0.0.60/modules/installed.json
+2024-07-18T16:05:04.258Z [Modules] Module download path: /home/facundo/.config/discord/0.0.60/modules/pending
+2024-07-18T16:05:04.473Z [Modules] No updates to install
+2024-07-18T16:05:04.473Z [Modules] Checking for host updates.
+2024-07-18T16:05:04.754Z [Modules] Host is up to date.
+2024-07-18T16:05:04.754Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T16:05:04.784Z [Modules] No module updates available.
+2024-07-18T16:05:06.735Z [Modules] Checking for host updates.
+2024-07-18T16:05:06.922Z [Modules] Host is up to date.
+2024-07-18T16:05:06.922Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-07-18T16:05:06.924Z [Modules] No module updates available.

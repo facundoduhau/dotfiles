@@ -1,0 +1,9 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "disable_move"
+    ],
+    "diagnostics.disable": [
+        "undefined-global"
+    ]
+}

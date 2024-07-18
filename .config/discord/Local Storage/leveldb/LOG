@@ -1,0 +1,5 @@
+2024/07/18-13:05:04.248 9698 Reusing MANIFEST /home/facundo/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/07/18-13:05:04.248 9698 Recovering log #48
+2024/07/18-13:05:04.258 9698 Level-0 table #51: started
+2024/07/18-13:05:04.276 9698 Level-0 table #51: 802150 bytes OK
+2024/07/18-13:05:04.279 9698 Delete type=0 #48
