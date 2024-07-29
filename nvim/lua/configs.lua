@@ -15,3 +15,4 @@
 -- Folding
   vim.cmd("set foldmethod=manual")
   vim.cmd("set foldcolumn=1")
+

@@ -2,7 +2,6 @@ return {
   {
     "hrsh7th/cmp-nvim-lsp",
   },
-
   {
     "L3MON4D3/LuaSnip",
     dependencies = {
@@ -10,7 +9,6 @@ return {
       "rafamadriz/friendly-snippets",
     },
   },
-
   {
     "hrsh7th/nvim-cmp",
     config = function()
@@ -43,3 +41,4 @@ return {
     end,
   },
 }
+

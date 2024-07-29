@@ -2,14 +2,31 @@ return {
 	{
 		"neovim/nvim-lspconfig",
 		config = function()
-	    local capabilities = require('cmp_nvim_lsp').default_capabilities()
+	    local capabilities = require('cmp_nvim_lsp').default_capabilities() -- Capabilities llama al lsp.
+
       local lspconfig = require("lspconfig")
-			lspconfig.lua_ls.setup({
+
+      -- Agrego SNIPPETS aca.
+
+			lspconfig.lua_ls.setup({ -- Lua
         capabilities = capabilities
       })
-			lspconfig.clangd.setup({
+			lspconfig.clangd.setup({ -- C++
         capabilities = capabilities
       })
+      lspconfig.html.setup({ -- Html
+        capabilities = capabilities
+      })
+      lspconfig.tsserver.setup({ -- TypeScript
+        capabilities = capabilities
+      })
+      lspconfig.solargraph.setup({ -- Ruby ((DOESN'T WORK XD))
+        capabilities = capabilities
+      })
+      lspconfig.pyright.setup({ -- Python
+        capabilities = capabilities
+      })
+
 			vim.keymap.set("n", "<leader>ho", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>df", vim.lsp.buf.definition, {})
 			vim.keymap.set("n", "<leader>ac", vim.lsp.buf.code_action, {})
@@ -18,6 +35,11 @@ return {
   {
 		"williamboman/mason.nvim",
 		lazy = false,
+    opts = {
+      ensure_installed = {
+        "typescript-language-server"
+      }
+    },
 		config = function()
 			require("mason").setup()
 		end,
