@@ -20,7 +20,7 @@ return {
       lspconfig.tsserver.setup({ -- TypeScript
         capabilities = capabilities
       })
-      lspconfig.solargraph.setup({ -- Ruby ((DOESN'T WORK XD))
+      lspconfig.cssls.setup({ -- CSS
         capabilities = capabilities
       })
       lspconfig.pyright.setup({ -- Python
