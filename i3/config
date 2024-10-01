@@ -1,0 +1,236 @@
+# Programs run on startup:
+exec picom
+exec feh --bg-scale /usr/share/endeavouros/backgrounds/eos_wallpapers_community/material_endeavour.png
+
+# Polkit Authentication:
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+# Dex:
+exec --no-startup-id dex --autostart --environment i3
+
+# Monitors layout:
+exec --no-startup-id ~/.screenlayout/monitor.sh
+
+# Disable sleep screen:
+exec xset -dpms
+exec xset s off
+
+# Desktop notifications:
+exec --no-startup-id /usr/bin/dunst
+
+# Font and text size:
+font pango: Hack Nerd Font 12
+
+# Set mod key (Windows):
+set $mod Mod4
+
+# Workspaces:
+workspace_layout default
+
+new_window pixel 0
+
+gaps inner 5
+gaps outer 0
+
+floating_modifier $mod
+
+bindcode $mod+10    workspace  $ws1
+bindcode $mod+11    workspace  $ws2
+bindcode $mod+12    workspace  $ws3
+bindcode $mod+13    workspace  $ws4
+bindcode $mod+14    workspace  $ws5
+bindcode $mod+15    workspace  $ws6
+bindcode $mod+16    workspace  $ws7
+bindcode $mod+17    workspace  $ws8
+bindcode $mod+18    workspace  $ws9
+bindcode $mod+19    workspace  $ws10
+
+bindcode $mod+Shift+10    move container to workspace  $ws1
+bindcode $mod+Shift+11    move container to workspace  $ws2
+bindcode $mod+Shift+12    move container to workspace  $ws3
+bindcode $mod+Shift+13    move container to workspace  $ws4
+bindcode $mod+Shift+14    move container to workspace  $ws5
+bindcode $mod+Shift+15    move container to workspace  $ws6
+bindcode $mod+Shift+16    move container to workspace  $ws7
+bindcode $mod+Shift+17    move container to workspace  $ws8
+bindcode $mod+Shift+18    move container to workspace  $ws9
+bindcode $mod+Shift+19    move container to workspace  $ws10
+
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# Resize:
+bindsym $mod+r mode "resize"
+
+mode "resize" {
+ bindsym h resize shrink width 10 px or 10 ppt
+ bindsym j resize grow height 10 px or 10 ppt
+ bindsym k resize shrink height 10 px or 10 ppt
+ bindsym l resize grow width 10 px or 10 ppt
+
+ bindsym Left resize shrink width 10 px or 10 ppt
+ bindsym Down resize grow height 10 px or 10 ppt
+ bindsym Up resize shrink height 10 px or 10 ppt
+ bindsym Right resize grow width 10 px or 10 ppt
+
+ bindsym Escape mode "default"
+}
+
+# Terminal:
+bindsym $mod+Return exec kitty
+
+bindsym $mod+h split h
+
+bindsym $mod+v split v
+
+# Window management:
+bindsym $mod+q kill
+
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+b focus up
+bindsym $mod+o focus right
+
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+b move up
+bindsym $mod+Shift+o move right
+
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+bindsym $mod+Shift+f fullscreen toggle
+
+bindsym $mod+s layout stacking
+bindsym $mod+g layout tabbed
+bindsym $mod+e layout toggle split
+
+bindsym $mod+Shift+space floating toggle
+
+bindsym $mod+space focus mode_toggle
+
+bindsym $mod+a focus parent
+
+# Exit menu:
+bindsym $mod+Shift+e exec --no-startup-id ~/.config/i3/scripts/powermenu
+
+# Keybinds menu:
+bindsym F1 exec --no-startup-id ~/.config/i3/scripts/keyhint-2
+
+# Dmenu keybind:
+bindsym $mod+d exec --no-startup-id rofi -modi drun -show drun \
+		-config ~/.config/rofi/rofidmenu.rasi
+
+# Windows menu:
+bindsym $mod+Tab exec --no-startup-id rofi -show window \
+		-config ~/.config/rofi/rofidmenu.rasi
+
+# Keybinds apps:
+bindsym $mod+f exec --no-startup-id /usr/bin/firefox
+bindsym $mod+t exec --no-startup-id /usr/bin/thunar
+bindsym Print exec --no-startup-id scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
+
+# Power option selection:
+bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/power-profiles
+
+# System reload:
+bindsym $mod+Shift+c reload
+
+# System restart:
+bindsym $mod+Shift+r restart
+
+# Volume/Audio:
+bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.config/i3/scripts/volume_brightness.sh volume_up
+bindsym XF86AudioLowerVolume exec --no-startup-id ~/.config/i3/scripts/volume_brightness.sh volume_down
+
+bindsym $mod+XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 1%+ && pkill -RTMIN+1 i3blocks
+bindsym $mod+XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 1%- && pkill -RTMIN+1 i3blocks
+
+bindsym XF86AudioMute exec --no-startup-id ~/.config/i3/scripts/volume_brightness.sh volume_mute
+
+bindsym XF86AudioMicMute exec amixer sset Capture toggle
+
+bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause 
+bindsym XF86AudioNext exec --no-startup-id playerctl next
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous
+
+bindsym $mod+p exec --no-startup-id /usr/local/bin/switch-audio-port
+
+# Set floating windows for specific apps:
+for_window [class="Yad" instance="yad"] floating enable
+for_window [class="Galculator" instance="galculator"] floating enable
+for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
+for_window [class="Xsane" instance="xsane"] floating enable
+for_window [class="Pavucontrol" instance="pavucontrol"] floating enable
+for_window [class="qt5ct" instance="qt5ct"] floating enable
+for_window [class="Blueberry.py" instance="blueberry.py"] floating enable
+for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enable
+for_window [class="Pamac-manager"] floating enable
+for_window [window_role="About"] floating enable
+
+for_window [class="urxvt"] border pixel 1
+
+# Colour variables:
+set $darkblue		    #08052b
+set $lightblue		  #5294e2
+set $urgentred		  #e53935
+set $white		      #ffffff
+set $black		      #000000
+set $purple		      #e345ff
+set $darkgrey		    #383c4a
+set $grey		        #b0b5bd
+set $mediumgrey		  #8b8b8b
+set $yellowbrown	  #e1b700
+
+# Window colours:
+#class		        	    border		  bground		  text		indicator	    child_border
+client.focused		    	$lightblue	$darkblue	  $white	$mediumgrey	  $mediumgrey
+client.unfocused	    	$lightblue  $darkblue	  $grey		$darkgrey	    $darkgrey
+client.focused_inactive	$lightblue  $darkblue	  $grey		$black		    $black
+client.urgent		    	  $lightblue	$urgentred	$white	$yellowbrown	$yellowbrown
+
+# Set primary monitor:
+exec --no-startup-id xrandr --output HDMI-0 --primary
+
+# i3 Bar:
+bar {
+		font pango: Hack Nerd Font 14
+
+		status_command i3blocks -c ~/.config/i3/i3blocks.conf
+
+	    	position bottom
+
+		    tray_output primary
+
+		    tray_padding 0
+
+        padding 0 10
+
+        strip_workspace_numbers no
+
+	colors {
+		    separator          $purple
+		    background         #1e1e2e
+		    statusline         $white
+#                       		border 		bg		      txt		      indicator
+        focused_workspace	  #1e1e2e	  #1e1e2e 		$white	    $purple
+        active_workspace  	#1e1e2e   #1e1e2e  	  $darkgrey	  $purple
+        inactive_workspace	#1e1e2e	  #1e1e2e		  $darkgrey		$purple
+        urgent_workspace  	#1e1e2e	  #1e1e2e		  $white		  $purple
+	}
+}
