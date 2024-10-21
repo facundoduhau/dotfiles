@@ -1,7 +1,8 @@
 {
     "diagnostics.globals": [
         "vim",
-        "disable_move"
+        "disable_move",
+        "file_types"
     ],
     "diagnostics.disable": [
         "undefined-global"

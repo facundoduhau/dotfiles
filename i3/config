@@ -1,3 +1,6 @@
+bindsym Print exec /usr/bin/flameshot gui 
+exec --no-startup-id bash -l -c 'source ~/.profile'
+
 # Programs run on startup:
 exec picom
 exec feh --bg-scale /usr/share/endeavouros/backgrounds/eos_wallpapers_community/material_endeavour.png
@@ -27,10 +30,8 @@ set $mod Mod4
 # Workspaces:
 workspace_layout default
 
-new_window pixel 0
-
-gaps inner 5
-gaps outer 0
+gaps inner 10
+smart_gaps off
 
 floating_modifier $mod
 
@@ -143,7 +144,6 @@ bindsym $mod+Tab exec --no-startup-id rofi -show window \
 # Keybinds apps:
 bindsym $mod+f exec --no-startup-id /usr/bin/firefox
 bindsym $mod+t exec --no-startup-id /usr/bin/thunar
-bindsym Print exec --no-startup-id scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
 # Power option selection:
 bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/power-profiles
@@ -183,8 +183,6 @@ for_window [class="Bluetooth-sendto" instance="bluetooth-sendto"] floating enabl
 for_window [class="Pamac-manager"] floating enable
 for_window [window_role="About"] floating enable
 
-for_window [class="urxvt"] border pixel 1
-
 # Colour variables:
 set $darkblue		    #08052b
 set $lightblue		  #5294e2
@@ -197,13 +195,14 @@ set $grey		        #b0b5bd
 set $mediumgrey		  #8b8b8b
 set $yellowbrown	  #e1b700
 
+# Borders:
+new_window pixel 0
+default_border pixel 0
 # Window colours:
-#class		        	    border		  bground		  text		indicator	    child_border
-client.focused		    	$lightblue	$darkblue	  $white	$mediumgrey	  $mediumgrey
-client.unfocused	    	$lightblue  $darkblue	  $grey		$darkgrey	    $darkgrey
-client.focused_inactive	$lightblue  $darkblue	  $grey		$black		    $black
-client.urgent		    	  $lightblue	$urgentred	$white	$yellowbrown	$yellowbrown
-
+client.focused		#313244 #313244 #313244 #313244 #313244 
+client.unfocused  #ffffff #ffffff #ffffff #ffffff #ffffff   
+client.focused_inactive #ffffff #ffffff #ffffff #ffffff #ffffff
+client.background #ffffff #ffffff #ffffff #ffffff #ffffff
 # Set primary monitor:
 exec --no-startup-id xrandr --output HDMI-0 --primary
 
